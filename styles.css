@@ -1,0 +1,78 @@
+/* Style global */
+body {
+    overflow: visible;
+    font-family: 'Arial', sans-serif;
+    background-color: #191c43;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur principal */
+.container {
+    width: 60%;
+    margin: auto;
+    background: rgb(178, 189, 225);
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Logo EPSI */
+.logo {
+    display: block;
+    width: 100px;
+    margin-bottom: 50px;
+    margin:50px;
+    height: auto;
+}
+
+/* Titres */
+h2 {
+    color: #0056A3;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin: 10%;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+}
+
+/* Champs texte et menus déroulants */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Bouton d'envoi */
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background: #270f12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #B80014;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .container {
+        width: 60%;
+    }
+}
